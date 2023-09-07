@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Helvetica', sans-serif;
+}
+@layer components {
+  .inputs {
+    @apply w-full p-1 border-2 rounded-sm mt-2;
+  }
+}
